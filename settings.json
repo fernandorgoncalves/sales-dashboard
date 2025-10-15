@@ -1,0 +1,8 @@
+{
+    "editor.defaultFormatteer": "esbenp.prettier-vs-code",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": false,
+    "files.autoSave": false
+}
