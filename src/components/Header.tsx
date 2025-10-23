@@ -6,7 +6,7 @@ import { pxToRem } from "@/utils";
 
 const StyleHeader = styled.header`
     background-color: url(/${(props) => props.theme.appBackground});
-    border-bottom: ${pxToRem(1)} solid ${(props) => props.theme.appDefautStroke}};
+    border-bottom: ${pxToRem(1)} solid ${(props) => props.theme.appDefautStroke};
     margin-bottom: ${pxToRem(37)};
     width: 100%;
 `
