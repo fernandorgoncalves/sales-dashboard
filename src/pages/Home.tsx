@@ -1,5 +1,4 @@
-import { avatarList,CardComponent, Header } from "@/components";
-import AvatarList from "@/components/AvatarList";
+import { AvatarList,CardComponent, Header } from "@/components";
 import { Container } from "@mui/material";
 import { currencyConverter } from "@/utils";
 
