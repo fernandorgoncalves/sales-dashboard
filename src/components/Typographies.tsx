@@ -22,6 +22,13 @@ export const  StyledP = styled.p<TypographiesProps>`
     font-weigth: ${(props) => pxToRem(props.size || 400)};
     line-height: ${(props) => pxToRem(props.lineheight || 24)}
 `
+export const  StyledSpan = styled.span<TypographiesProps>`
+    color: ${(props) => props.color || 'inherit'}
+    font-size: ${(props) => pxToRem(props.size || 16)};
+    font-weigth: ${(props) => pxToRem(props.size || 400)};
+    line-height: ${(props) => pxToRem(props.lineheight || 24)}
+`
+
 export const  StyledUl = styled.ul<TypographiesProps>`
     color: ${(props) => props.color || 'inherit'}
     font-size: ${(props) => pxToRem(props.size || 16)};
