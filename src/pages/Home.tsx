@@ -1,7 +1,8 @@
-import { AvatarList,CardComponent, CustomTable, customChart, Header } from "@/components";
+import { AvatarList,CardComponent, CustomTable, CustomChart, Header } from "@/components";
+import { currencyConverter } from "@/utils";
 import { Container } from "@mui/material";
 import { currencyConverter } from "@/utils";
-import CustomChart from "@/components/CustomChart";
+import { CardComponent, Header } from "@/components";
 
 function Home() {
 const mockListData = [
