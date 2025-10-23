@@ -1,6 +1,8 @@
 export {default as FormComponent} from './FormComponent'
+export {default as Header} from './Header'
 export * from './BannerImage'
 export * from './StyledButton'
 export * from './StyleInput'
 export * from './Typographies'
 export * from './Logo'
+export * from './CardComponent'

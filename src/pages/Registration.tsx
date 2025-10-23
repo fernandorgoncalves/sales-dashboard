@@ -1,6 +1,8 @@
 import { BannerImage, FormComponent, StyledH1, StyledP,StyledUl,Logo } from "@/components";
 import { Box, Grid, Container } from "@mui/material";
 import { pxToRem } from "@/utils";
+ 
+
 
 function Registration() {
   return (
