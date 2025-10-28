@@ -26,7 +26,7 @@ function Header() {
                         <Logo height={30} width={73} />
                     </Link>
                     <Link to="/perfil">
-                        <Avatar alt="DNC Avatar" src="/dnc-avatar.svg" sx={{width: pxToRem(40), height:(40)}} />
+                        <Avatar alt="DNC Avatar " src="/dnc-avatar.svg" sx={{width: pxToRem(40), height:(40)}} />
                     </Link>
                 </Box>
             </Container>
